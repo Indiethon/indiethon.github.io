@@ -1,0 +1,87 @@
+{
+    "pages": [{
+        "name": "Home",
+        "path": "",
+        "html": "home/home.html",
+        "stylesheet": "home/home.css",
+        "javascript": "home/home.js"
+    }, {
+        "name": "About",
+        "path": "/about",
+        "html": "about/about.html",
+        "stylesheet": "about/about.css",
+        "javascript": "about/about.js"
+    }, {
+        "name": "Company",
+        "path": "/company",
+        "html": "company/company.html",
+        "stylesheet": "company/company.css",
+        "javascript": "company/company.js"
+    }, {
+        "name": "Contact",
+        "path": "/contact",
+        "html": "contact/contact.html",
+        "stylesheet": "contact/contact.css",
+        "javascript": "contact/contact.js"
+    }, {
+        "name": "Privacy Policy",
+        "path": "/privacy-policy",
+        "html": "privacyPolicy/privacyPolicy.html",
+        "stylesheet": "privacyPolicy/privacyPolicy.css",
+        "javascript": ""
+    }],
+    "twitchLiveApiUrl": "https://broken-recipe-0e50.nicnacnic-cloudflare2847.workers.dev/",
+    "eventInfo": [
+        {
+            "name": "Indiethon Summer 2023",
+            "dates": "June 30 - July 4, 2023",
+            "location": "Online on <a href=\"https://twitch.tv/indiethonevents\" target=\"_blank\">Twitch</a>",
+            "charity": "To be announced soon!",
+            "eventDates": {
+                "start": "2023-03-30T04:00:00.000Z",
+                "end": "2023-07-04T04:00:00.000Z"
+            },
+            "submissions": {
+                "beforeOpenText": "April 23 - May 21, 2023",
+                "openText": "<a href=\"https://v1.oengus.io/marathon/indiesum23\" target=\"_blank\">Open now</a> until May 21st, 2023",
+                "closedText": "Deadline passed.",
+                "start": "2023-04-23T04:00:00.000Z",
+                "end": "2023-05-21T03:59:59.000Z"
+            },
+            "volunteer": {
+                "beforeOpenText": "<a href=\"https://volunteer.indiethon.com\" target=\"_blank\">Open now</a> until June 4th!",
+                "openText": "<a href=\"https://volunteer.indiethon.com\" target=\"_blank\">Open now</a> until June 4th!",
+                "closedText": "Deadline passed.",
+                "start": "2023-03-23T04:00:00.000Z",
+                "end": "2023-06-4T03:59:59.000Z"
+            },
+            "attendee": {
+                "beforeOpenText": "",
+                "openText": "",
+                "closedText": "",
+                "start": "",
+                "end": ""
+            },
+            "custom": {}
+        }
+    ],
+    "news": [
+        {
+            "name": "Test Article 1",
+            "author": "nicnacnic",
+            "description": "This is a test!",
+            "link": "https://google.com"
+        },
+        {
+            "name": "Test Article 2",
+            "author": "nicnacnic",
+            "description": "This is a test!",
+            "link": "https://google.com"
+        },        {
+            "name": "Test Article 3",
+            "author": "nicnacnic",
+            "description": "This is a test!",
+            "link": "https://google.com"
+        }
+    ]
+}

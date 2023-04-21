@@ -1,0 +1,196 @@
+/* .videoCarousel {
+    position: relative;
+    height: 20rem;
+    background-color: blue;
+}
+
+.videoCarouselImg {
+    position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.videoCarouselImg img {
+    height: 15rem;
+} */
+
+/* Basic styles */
+
+/* Set default font and colors */
+
+main {
+    max-width: 100vw;
+    width: 100%;
+}
+
+.video-section {
+    position: relative;
+    background-color: #1F3D5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-container .scrolling-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.video-section .logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-section .logo {
+    width: 30rem;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Twitch section */
+.twitch-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 1400px;
+    display: none /* Hidden by defalt */;
+}
+
+.twitch-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0 auto;
+    max-width: 90%;
+    background-color: 18181b;
+
+    /* aspect-ratio: 80 / 33; */
+}
+
+.twitch-container #twitch-embed {
+    padding-top: 42.2%;
+    width: 75%;
+    position: relative;
+    height: 0;
+}
+
+.twitch-container #twitch-embed iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.twitch-container #twitch-chat {
+    width: 25%;
+    min-height: 100%;
+}
+
+.twitch-container #twitch-chat iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .twitch-container {
+        display: block  ;
+    }
+
+    .twitch-container #twitch-embed {
+        padding-top: 56.25%;
+        width: 100%;
+        position: relative;
+        height: 0;
+    }
+
+    .twitch-container #twitch-chat {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+
+/* Upcoming events section */
+.upcoming-events-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 0;
+    margin: 40px auto;
+    width: 85%;
+    max-width: 1400px;
+    gap: 40px;
+}
+
+.upcoming-events {
+    flex-basis: 28%;
+    flex-grow: 1;
+}
+
+.upcoming-events-heading {
+    margin-bottom: 6px;
+}
+
+.upcoming-events-details {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.upcoming-event {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.bold-text {
+    font-weight: 900;
+    color: #3f51b5;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.about {
+    flex-basis: 62%;
+    flex-grow: 999;
+    padding: 20px;
+}
+
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .upcoming-events-about {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .upcoming-events,
+    .about {
+        flex-basis: 100%;
+    }
+}
+
+/* News section */
+.news-section {
+    max-width: 1400px;
+}

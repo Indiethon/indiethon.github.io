@@ -1,0 +1,26 @@
+.img-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.person-img {
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.person-img img {
+    object-fit: cover;
+    object-position: 50% 0;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.person-name {
+    font-weight: bold;
+}
