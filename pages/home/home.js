@@ -17,6 +17,10 @@ async function load(config, route) {
             })
         })
 
+        config.articles.forEach((article, index) => {
+            populateArticle(article, index);
+        })
+
         resolve();
 
         function populateData(event, key) {
@@ -41,6 +45,31 @@ async function load(config, route) {
             div.appendChild(title);
             div.appendChild(data);
             parent.append(div);
+        }
+
+        async function populateArticle(article, index) {
+            let container = document.querySelector('.news-container');
+
+            let div = document.createElement('article');
+            div.style.order = index;
+            
+            let header = document.createElement('h2');
+            header.innerHTML = article.name;
+
+            let info = document.createElement('div');
+            info.classList.add('article-info');
+            let date = new Date(article.date);
+            info.innerHTML = `Written By ${article.author} &#x2022 Posted on ${date.toLocaleDateString(Intl.DateTimeFormat(), { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
+
+            let data = await (await fetch(article.file)).text();
+            let content = document.createElement('div');
+            content.classList.add('article-content');
+            content.innerHTML = marked.parse(data);
+
+            div.appendChild(header);
+            div.appendChild(info);
+            div.appendChild(content);
+            container.appendChild(div);
         }
     })
 }

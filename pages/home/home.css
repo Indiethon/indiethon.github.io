@@ -192,5 +192,34 @@ main {
 
 /* News section */
 .news-section {
-    max-width: 1400px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.news-container article {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.news-container article h2 {
+    font-size: 28px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5px;;
+}
+
+.news-container article p {
+    margin-bottom: 0;
+}
+
+.article-info {
+    color: #333333;
+    font-size: 14px;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }

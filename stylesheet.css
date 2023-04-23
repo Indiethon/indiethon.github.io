@@ -32,7 +32,7 @@ h5 {
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 46px;
 }
 
 h2 {
@@ -99,7 +99,7 @@ header h1 {
 
 .navbar-logo img {
     height: 30px;
-    margin-top: 10px;
+    margin-top: 13px;
     pointer-events: none;
 }
 
@@ -164,7 +164,7 @@ header h1 {
 
 .navbar-dropdown:hover .navbar-dropdown-menu {
     transform: scaleY(1);
-    transition: transform 0.3s ease-out;
+    transition: transform 0.2s ease-out;
 }
 
 .navbar-dropdown:hover > a {
@@ -189,7 +189,7 @@ header h1 {
     height: auto;
     padding: 0;
     border-top: 3px solid #696969;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.2s ease-in;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -208,13 +208,13 @@ header h1 {
 
 .navbar-dropdown-menu li:last-child a:hover {
     background-color: #4c4c4c;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .navbar-dropdown-menu li:last-child a {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .navbar-dropdown-menu li a {
@@ -241,9 +241,10 @@ header h1 {
     border-radius: 10px;
     line-height: 30px;
     transition-duration: 0.4s;
+    pointer-events: none;
 }
 
-.donate-button:hover {
+.donate-button-container a:hover .donate-button {
     background-color: #585b90;
 }
 
@@ -297,6 +298,10 @@ header h1 {
     transition-duration: 0.5s;
 }
 
+.navbar-logo a {
+    display: block;
+    height: 56px;
+}
 
 /* Toggle menu icon */
 .navbar-toggle:checked~.navbar {

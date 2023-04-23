@@ -1,35 +1,49 @@
 {
-    "pages": [{
-        "name": "Home",
-        "path": "",
-        "html": "home/home.html",
-        "stylesheet": "home/home.css",
-        "javascript": "home/home.js"
-    }, {
-        "name": "About",
-        "path": "/about",
-        "html": "about/about.html",
-        "stylesheet": "about/about.css",
-        "javascript": "about/about.js"
-    }, {
-        "name": "Company",
-        "path": "/company",
-        "html": "company/company.html",
-        "stylesheet": "company/company.css",
-        "javascript": "company/company.js"
-    }, {
-        "name": "Contact",
-        "path": "/contact",
-        "html": "contact/contact.html",
-        "stylesheet": "contact/contact.css",
-        "javascript": "contact/contact.js"
-    }, {
-        "name": "Privacy Policy",
-        "path": "/privacy-policy",
-        "html": "privacyPolicy/privacyPolicy.html",
-        "stylesheet": "privacyPolicy/privacyPolicy.css",
-        "javascript": ""
-    }],
+    "pages": [
+        {
+            "name": "Home",
+            "path": "",
+            "html": "home/home.html",
+            "stylesheet": "home/home.css",
+            "javascript": "home/home.js"
+        },
+        {
+            "name": "About",
+            "path": "/about",
+            "html": "about/about.html",
+            "stylesheet": "about/about.css"
+        },
+        {
+            "name": "Company",
+            "path": "/company",
+            "html": "company/company.html",
+            "stylesheet": "company/company.css",
+            "javascript": "company/company.js"
+        },
+        {
+            "name": "Contact",
+            "path": "/contact",
+            "html": "contact/contact.html",
+            "stylesheet": "contact/contact.css"
+        },
+        {
+            "name": "Donate",
+            "path": "/donate",
+            "html": "donate/donate.html",
+            "stylesheet": "donate/donate.css"
+        },
+        {
+            "name": "Submission Guidelines",
+            "path": "/submission-guidelines",
+            "html": "submission-guidelines/submission-guidelines.html",
+            "stylesheet": "submission-guidelines/submission-guidelines.css"
+        },
+        {
+            "name": "Privacy Policy",
+            "path": "/privacy-policy",
+            "html": "privacyPolicy/privacyPolicy.html"
+        }
+    ],
     "twitchLiveApiUrl": "https://broken-recipe-0e50.nicnacnic-cloudflare2847.workers.dev/",
     "eventInfo": [
         {
@@ -42,10 +56,10 @@
                 "end": "2023-07-04T04:00:00.000Z"
             },
             "submissions": {
-                "beforeOpenText": "April 23 - May 21, 2023",
+                "beforeOpenText": "April 24 - May 21, 2023",
                 "openText": "<a href=\"https://v1.oengus.io/marathon/indiesum23\" target=\"_blank\">Open now</a> until May 21st, 2023",
                 "closedText": "Deadline passed.",
-                "start": "2023-04-23T04:00:00.000Z",
+                "start": "2023-04-24T04:00:00.000Z",
                 "end": "2023-05-21T03:59:59.000Z"
             },
             "volunteer": {
@@ -65,23 +79,12 @@
             "custom": {}
         }
     ],
-    "news": [
+    "articles": [
         {
-            "name": "Test Article 1",
+            "name": "Indiethon has a new website!",
             "author": "nicnacnic",
-            "description": "This is a test!",
-            "link": "https://google.com"
-        },
-        {
-            "name": "Test Article 2",
-            "author": "nicnacnic",
-            "description": "This is a test!",
-            "link": "https://google.com"
-        },        {
-            "name": "Test Article 3",
-            "author": "nicnacnic",
-            "description": "This is a test!",
-            "link": "https://google.com"
+            "date": "2023-03-23T04:00:00.000Z",
+            "file": "/articles/new-website.md"
         }
     ]
 }

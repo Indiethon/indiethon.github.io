@@ -17,6 +17,8 @@ const router = async () => {
     const path = window.location.pathname.replace(/\/$/, "");
     match = potentialMatches.find(potentialMatch => potentialMatch.route.path === path);
 
+    console.log(match)
+
     let head = document.querySelector('head');
     let main = document.querySelector('main');
 
