@@ -35,3 +35,19 @@
 h3 {
     margin-top: 44px;
 }
+
+@media screen and (max-width: 800px) {
+
+    .person-name {
+        font-size: 16px;
+    }
+
+    .person-role {
+        font-size: 16px;
+    }
+
+    .person-img img {
+        width: 150px;
+        height: 150px;
+    }
+}
