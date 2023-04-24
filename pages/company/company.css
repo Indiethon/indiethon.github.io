@@ -25,6 +25,31 @@
     font-weight: bold;
 }
 
+
+.button {
+    color: #FFFFFF;
+    vertical-align: center;
+    background-color: #4268f6;
+    padding: 5px 16px;
+    border-radius: 10px;
+    line-height: 36px;
+    width: 200px;
+    height: 36px;
+    text-align: center;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #585b90;
+}
+
+.button-container {
+    text-decoration: none;
+}
+
+
 @media screen and (max-width: 800px) {
 
     .person-name {
