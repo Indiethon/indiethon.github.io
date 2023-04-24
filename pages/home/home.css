@@ -29,7 +29,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
 }
 
 .video-container {
@@ -53,13 +53,15 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .video-section .logo {
-    width: 30rem;
-    height: auto;
+    width: auto;
+    height: 20vh;
     display: block;
     margin: 0 auto;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 800px) {
