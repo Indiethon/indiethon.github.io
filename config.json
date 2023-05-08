@@ -17,8 +17,7 @@
             "name": "Company",
             "path": "/company",
             "html": "company/company.html",
-            "stylesheet": "company/company.css",
-            "javascript": "company/company.js"
+            "stylesheet": "company/company.css"
         },
         {
             "name": "Contact",
