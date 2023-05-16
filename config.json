@@ -49,7 +49,7 @@
             "name": "Indiethon Summer 2023",
             "dates": "June 30 - July 4, 2023",
             "location": "Online on <a href=\"https://twitch.tv/indiethonevents\" target=\"_blank\">Twitch</a>",
-            "charity": "To be announced soon!",
+            "charity": "<a href=\"https://www.samaritans.org\" target=\"_blank\">The Samaritans</a>",
             "eventDates": {
                 "start": "2023-03-30T04:00:00.000Z",
                 "end": "2023-07-04T04:00:00.000Z"
@@ -79,6 +79,12 @@
         }
     ],
     "articles": [
+        {
+            "name": "Indiethon Summer 2023 Charity Announcement",
+            "author": "nicnacnic",
+            "date": "2023-05-16T20:45:46.422Z",
+            "file": "/articles/indiethon-summer-23-charity.md"
+        },
         {
             "name": "Indiethon has a new website!",
             "author": "nicnacnic",
