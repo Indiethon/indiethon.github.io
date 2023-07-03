@@ -46,27 +46,27 @@
     "twitchLiveApiUrl": "https://broken-recipe-0e50.nicnacnic-cloudflare2847.workers.dev/",
     "eventInfo": [
         {
-            "name": "Indiethon Summer 2023",
-            "dates": "June 30 - July 4, 2023",
+            "name": "Indiethon Fall Follies 2023",
+            "dates": "November 3 - 5, 2023",
             "location": "Online on <a href=\"https://twitch.tv/indiethonevents\" target=\"_blank\">Twitch</a>",
-            "charity": "<a href=\"https://www.samaritans.org\" target=\"_blank\">The Samaritans</a>",
+            "charity": "To be announced soon!",
             "eventDates": {
-                "start": "2023-03-30T04:00:00.000Z",
-                "end": "2023-07-04T04:00:00.000Z"
+                "start": "2023-11-03T04:00:00.000Z",
+                "end": "2023-11-05T04:00:00.000Z"
             },
             "submissions": {
-                "beforeOpenText": "April 24 - May 21, 2023",
+                "beforeOpenText": "To be announced soon!",
                 "openText": "<a href=\"https://v1.oengus.io/marathon/indiesum23\" target=\"_blank\">Open now</a> until May 21st, 2023",
                 "closedText": "Deadline passed.",
-                "start": "2023-04-24T04:00:00.000Z",
-                "end": "2023-05-21T03:59:59.000Z"
+                "start": "2023-11-03T04:00:00.000Z",
+                "end": "2023-11-05T03:59:59.000Z"
             },
             "volunteer": {
-                "beforeOpenText": "<a href=\"https://volunteer.indiethon.com\" target=\"_blank\">Open now</a> until June 4th!",
+                "beforeOpenText": "To be announced soon!",
                 "openText": "<a href=\"https://volunteer.indiethon.com\" target=\"_blank\">Open now</a> until June 4th!",
                 "closedText": "Deadline passed.",
-                "start": "2023-03-23T04:00:00.000Z",
-                "end": "2023-06-4T03:59:59.000Z"
+                "start": "2023-11-03T04:00:00.000Z",
+                "end": "2023-11-05T03:59:59.000Z"
             },
             "attendee": {
                 "beforeOpenText": "",
@@ -79,6 +79,12 @@
         }
     ],
     "articles": [
+        {
+            "name": "Indiethon Summer 2023 Raises $805 for The Samaritans!",
+            "author": "nicnacnic",
+            "date": "2023-07-03T04:03:00.0400",
+            "file": "/articles/indiethon-summer-23-results.md"
+        },
         {
             "name": "Indiethon Summer 2023 Charity Announcement",
             "author": "nicnacnic",
