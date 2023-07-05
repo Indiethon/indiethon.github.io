@@ -38,6 +38,12 @@
             "stylesheet": "submission-guidelines/submission-guidelines.css"
         },
         {
+            "name": "Sponsorship",
+            "path": "/sponsorship",
+            "html": "sponsorship/sponsorship.html",
+            "stylesheet": "sponsorship/sponsorship.css"
+        },
+        {
             "name": "Privacy Policy",
             "path": "/privacy-policy",
             "html": "privacyPolicy/privacyPolicy.html"
