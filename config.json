@@ -52,27 +52,27 @@
     "twitchLiveApiUrl": "https://broken-recipe-0e50.nicnacnic-cloudflare2847.workers.dev/",
     "eventInfo": [
         {
-            "name": "Indiethon Fall Follies 2023",
+            "name": "Indiethon Fall Fables 2023",
             "dates": "November 3 - 5, 2023",
             "location": "Online on <a href=\"https://twitch.tv/indiethonevents\" target=\"_blank\">Twitch</a>",
             "charity": "To be announced soon!",
             "eventDates": {
-                "start": "2023-11-03T04:00:00.000Z",
+                "start": "2023-11-03T16:00:00.000Z",
                 "end": "2023-11-05T04:00:00.000Z"
             },
             "submissions": {
                 "beforeOpenText": "To be announced soon!",
-                "openText": "<a href=\"https://v1.oengus.io/marathon/indiesum23\" target=\"_blank\">Open now</a> until May 21st, 2023",
+                "openText": "<a href=\"https://oengus.io/marathon/indiefa23" target=\"_blank\">Open now</a> until October 1st, 2023",
                 "closedText": "Deadline passed.",
-                "start": "2023-11-03T04:00:00.000Z",
-                "end": "2023-11-05T03:59:59.000Z"
+                "start": "2023-09-01T04:00:00.000Z",
+                "end": "2023-10-02T04:00:00.000Z"
             },
             "volunteer": {
                 "beforeOpenText": "To be announced soon!",
                 "openText": "<a href=\"https://volunteer.indiethon.com\" target=\"_blank\">Open now</a> until June 4th!",
                 "closedText": "Deadline passed.",
-                "start": "2023-11-03T04:00:00.000Z",
-                "end": "2023-11-05T03:59:59.000Z"
+                "start": "2023-09-01T04:00:00.000Z",
+                "end": "2023-10-02T04:00:00.000Z"
             },
             "attendee": {
                 "beforeOpenText": "",
