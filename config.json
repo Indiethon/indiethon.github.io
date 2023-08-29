@@ -69,7 +69,7 @@
             },
             "volunteer": {
                 "beforeOpenText": "To be announced soon!",
-                "openText": "<a href=\"https://volunteer.indiethon.com\" target=\"_blank\">Open now</a> until October 1st, 2023!",
+                "openText": "<a href=\"https://volunteer.indiethon.com\" target=\"_blank\">Open now</a> until October 1st, 2023",
                 "closedText": "Deadline passed.",
                 "start": "2023-08-01T04:00:00.000Z",
                 "end": "2023-10-02T04:00:00.000Z"
