@@ -52,27 +52,27 @@
     "twitchLiveApiUrl": "https://broken-recipe-0e50.nicnacnic-cloudflare2847.workers.dev/",
     "eventInfo": [
         {
-            "name": "Indiethon Fall Fables 2023",
-            "dates": "Event canceled, see below.",
+            "name": "Indiethon Spring 2024",
+            "dates": "Friday, March 22nd to Sunday, March 24th",
             "location": "Online on <a href=\"https://twitch.tv/indiethonevents\" target=\"_blank\">Twitch</a>",
             "charity": "<a href=\"https://www.fredhutch.org/en.html\" target=\"_blank\">Fred Hutch Cancer Center</a>",
             "eventDates": {
-                "start": "2026-11-03T16:00:00.000Z",
-                "end": "2026-11-05T04:00:00.000Z"
+                "start": "2024-03-22T16:00:00.000Z",
+                "end": "2024-03-24T04:00:00.000Z"
             },
             "submissions": {
                 "beforeOpenText": "To be announced soon! ",
-                "openText": "<a href=\"https://oengus.io/marathon/indiefa23\" target=\"_blank\">Open now</a> until October 1st, 2023",
+                "openText": "<a href=\"https://oengus.io/marathon/indiesp24\" target=\"_blank\">Open now</a> until February 18th, 2024",
                 "closedText": "Deadline passed.",
-                "start": "2026-08-01T04:00:00.000Z",
-                "end": "2026-10-02T04:00:00.000Z"
+                "start": "2024-01-01T04:00:00.000Z",
+                "end": "2024-02-19T04:00:00.000Z"
             },
             "volunteer": {
                 "beforeOpenText": "To be announced soon!",
-                "openText": "<a href=\"https://volunteer.indiethon.com\" target=\"_blank\">Open now</a> until October 1st, 2023",
+                "openText": "<a href=\"https://volunteer.indiethon.com\" target=\"_blank\">Open now</a> until March 3rd, 2024",
                 "closedText": "Deadline passed.",
-                "start": "2026-08-01T04:00:00.000Z",
-                "end": "2026-10-02T04:00:00.000Z"
+                "start": "2024-01-01T04:00:00.000Z",
+                "end": "2024-03-04T04:00:00.000Z"
             },
             "attendee": {
                 "beforeOpenText": "",
@@ -85,6 +85,12 @@
         }
     ],
     "articles": [
+        {
+            "name": "Happy Holidays from Indiethon",
+            "author": "nicnacnic",
+            "date": "2023-12-25T16:50:22+0000",
+            "file": "/articles/happy-hoidays-12-25-23.md"
+        },
          {
             "name": "Important Announcment from Indiethon Staff",
             "author": "nicnacnic",
